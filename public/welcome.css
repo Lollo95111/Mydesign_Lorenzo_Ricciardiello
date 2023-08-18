@@ -146,9 +146,9 @@ font-size: 20px;font-weight: bold;
 
 
 .appleWatch{
-  width: 30vw;
+  width: 25vw;
   position: relative;
-  left: -25vw;
+  left: -20vw;
   display: block;
 }
 
@@ -184,8 +184,8 @@ align-items: center;
 }
 
 .appleWatch2{
-  width: 40vw;
-  right: -30vw;
+  width: 30vw;
+  right: -20vw;
   position: relative;
   display: block;
 }
@@ -216,7 +216,7 @@ align-items: center;
 }
 
 .appleWatch3{
-  width: 50vw;
+  width: 60vw;
   left: -30vw;
   position: relative;
   display: block;
