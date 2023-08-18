@@ -99,6 +99,21 @@ fill="#000000" stroke="none">
 
 
 
+
+
+
+<div class="panel1">
+<div class="container">
+  <p class="watch intro fade-in" >My Name Is</p>
+  <h1 class="watch title-bg fade-in">Lorenzo Ricciardiello</h1>
+  <p class="watch intro fade-in" >I'm From Naples,Italy</p>
+  <br>
+  <br>
+  <img src="/man.gif" alt="" class="man fade-inImg watch">
+</div>
+</div>
+
+
 <!-- pannello -->
 
 <div class="panel">
@@ -134,6 +149,42 @@ fill="#000000" stroke="none">
   <img src="https://www.creativemotions.it/wp-content/uploads/2021/11/Cos-e-javascript.jpg" alt="" class="watch fade-inImg appleWatch3">
 </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="panel3">
+<div class="container">
+      <!-- AGGIUNGI RECENSIONE -->
+      <div class="mb-3">
+        <label for="userName" class="form-label">Inserisci La Tua Email</label>
+        <input type="text" class="form-control" id="userName" placeholder="Es: Astrubale">
+      </div>
+      <div class="mb-3">
+        <label for="userDescription" class="form-label">Inserisci La Tua Recensione</label>
+        <input type="text" class="form-control" id="userDescription">
+      </div>
+      <button id="addReviewBtn" class="btn btn-custom">Aggiungi Recensione</button>
+      <!-- FINE RECENSIONE -->
+    </div>
+  </div>
+
+
+
+
+
 
 
 

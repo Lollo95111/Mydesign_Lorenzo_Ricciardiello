@@ -103,30 +103,31 @@ background: linear-gradient(90deg, rgba(51,49,49,0.8128501400560224) 0%, rgba(0,
 
 
 
-/* pannello 1 */
+
+
+
+ 
 
 
 
 
-  .panel{
-    height: auto;
-    width: 100%;
-    background: #ffffffe0;;
-    position: relative;
-    z-index: 2;
-    color: #000;
-    display: flex;
-    justify-content: center;
-  align-items: center;
-  }
+
+
+
+
+
+
+
+
+
 .container{
   width: 100%;max-width: 1000px;padding: 10% 10% 0% 10%;
 }
 
-
 .intro{
 font-size: 20px;font-weight: bold;
 }
+
 .title-bg{
   font-size: 4rem;
 }
@@ -136,28 +137,90 @@ font-size: 20px;font-weight: bold;
   transform: translateY(20vh);
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
+
 .fade-in.in-page{
   opacity: 1;
   transform: translateY(0vh);
 }
 
 
-.appleWatch{
-  width: 25vw;
-  position: relative;
-  left: -20vw;
-  display: block;
-}
+
+
+ /* SOLO PER LE FOTO */
 
 .fade-inImg{
     opacity: 0;
-    transform: translateX(20vh);
+    transform: translateX(-20vh);
     transition: all 1s cubic-bezier(.215, .61, .355, 1);
 }
 
 .fade-inImg.in-page{
     opacity: 1;
     transform: translateX(0vh);
+}
+
+
+
+
+
+
+
+
+
+
+ /* PRESENTAZIONE */
+
+ .panel1{
+  height: auto;
+  width: 100%;
+  background: #ffffff;;
+  position: relative;
+  z-index: 2;
+  color: #000;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+
+
+.man{
+width: 40vw;
+position: relative;
+right: -10vw;
+display: block;
+}
+
+
+
+
+
+
+
+
+/* pannello 1 */
+
+
+
+
+.panel{
+  height: auto;
+  width: 100%;
+  background: #ffffffe0;;
+  position: relative;
+  z-index: 2;
+  color: #000;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+
+.appleWatch{
+  width: 30vw;
+  position: relative;
+  
+  display: block;
 }
 
 
@@ -214,7 +277,20 @@ align-items: center;
 
 .appleWatch3{
   width: 60vw;
-  left: -30vw;
+  left: -10vw;
   position: relative;
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
