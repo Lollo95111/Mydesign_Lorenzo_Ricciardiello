@@ -60,7 +60,7 @@ fill="#000000" stroke="none">
       <ul class="navbar-nav">
         <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">
-    <h1 class="titolo">Lorenzo Ricciardiello <br> Developer</h1>
+    <h1 class="titolo">Code Architect</h1>
 </a>
         </li>
         <li class="nav-item">
