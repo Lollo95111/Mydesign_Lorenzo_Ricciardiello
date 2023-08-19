@@ -100,12 +100,12 @@ fill="#000000" stroke="none">
 
 
 
-
+<!-- PRESENTAZIONE -->
 
 <div class="panel1">
 <div class="container">
   <p class="watch intro fade-in" >My Name Is</p>
-  <h1 class="watch title-bg fade-in">Lorenzo Ricciardiello</h1>
+  <h1 style="color: orange;" class="watch title-bg fade-in">Lorenzo Ricciardiello</h1>
   <p class="watch intro fade-in" >I'm From Naples,Italy</p>
   <br>
   <br>
@@ -118,7 +118,7 @@ fill="#000000" stroke="none">
 
 <div class="panel">
 <div class="container">
-  <p class="watch intro fade-in" >I miei linguaggi</p>
+  <p style="color:orange;" class="watch intro fade-in" >I miei linguaggi</p>
   <h1 class="watch title-bg fade-in">Javascript <br> PHP <br>CSS <br>HTML</h1>
   <br>
   <br>
@@ -131,7 +131,7 @@ fill="#000000" stroke="none">
 
 <div class="panel2">
 <div class="container">
-  <p class="watch intro fade-in" >PHP è un potente e flessibile linguaggio di programmazione progettato per il web. È un componente fondamentale di molte delle applicazioni e dei siti web che utilizzi quotidianamente. <br> Ciò che rende PHP così attraente è la sua versatilità e la sua facilità d'uso, che lo rendono ideale sia per sviluppatori principianti che per esperti.</p>
+  <p style="color: black;"  class="watch intro fade-in" >PHP è un potente e flessibile linguaggio di programmazione progettato per il web. È un componente fondamentale di molte delle applicazioni e dei siti web che utilizzi quotidianamente.</p>
   <br>
   <br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="" class="watch  fade-inImg appleWatch2">
@@ -143,7 +143,7 @@ fill="#000000" stroke="none">
 
 <div class="panel3">
 <div class="container">
-  <p class="watch intro fade-in" >L'uso del linguaggio Javascript tramite lo strumento della manipolazione del DOOM rende il tuo sito dinamico più che mai</p>
+  <p style="color: black;" class="watch intro fade-in" >L'uso del linguaggio Javascript tramite lo strumento della manipolazione del DOOM rende il tuo sito dinamico più che mai</p>
   <br>
   <br>
   <img src="https://www.creativemotions.it/wp-content/uploads/2021/11/Cos-e-javascript.jpg" alt="" class="watch fade-inImg appleWatch3">
@@ -170,11 +170,11 @@ fill="#000000" stroke="none">
       <!-- AGGIUNGI RECENSIONE -->
       <div class="mb-3">
         <label for="userName" class="form-label">Inserisci La Tua Email</label>
-        <input type="text" class="form-control" id="userName" placeholder="Es: Astrubale">
+        <input type="text" class="form-control" id="userName" placeholder="..">
       </div>
       <div class="mb-3">
         <label for="userDescription" class="form-label">Inserisci La Tua Recensione</label>
-        <input type="text" class="form-control" id="userDescription">
+        <input type="text" class="form-control" id="userDescription" placeholder="..">
       </div>
       <button id="addReviewBtn" class="btn btn-custom">Aggiungi Recensione</button>
       <!-- FINE RECENSIONE -->
