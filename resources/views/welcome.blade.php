@@ -67,7 +67,7 @@ fill="#000000" stroke="none">
           <a class="nav-link" href="https://github.com/Lollo95111"><i class="fab fa-github"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/Lollo95111"><i class="fab fa-instagram"></i></a>
+          <a class="nav-link" href="https://www.instagram.com/lorenzoricciardiello/?hl=it"><i class="fab fa-instagram"></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/Lollo95111"><i class="fab fa-linkedin"></i></a></a>
@@ -80,6 +80,9 @@ fill="#000000" stroke="none">
 
 
 
+<!-- WEBCAM -->
+
+<!-- <video id="cameraFeed" autoplay></video> -->
 
 
 
@@ -107,8 +110,15 @@ fill="#000000" stroke="none">
   <p class="watch intro fade-in" >My Name Is</p>
   <h1 style="color: orange;" class="watch title-bg fade-in">Lorenzo Ricciardiello</h1>
   <p class="watch intro fade-in" >I'm From Naples,Italy</p>
-  <br>
-  <br>
+
+  <div class="h-text">
+    <div class="h-animate">
+      <span class="text first-text">I'm a&nbsp;</span>
+      <span class="text sec-text">Developer</span>
+    </div>
+  </div>
+
+  
   <img src="/man.gif" alt="" class="man fade-inImg watch">
 </div>
 </div>
@@ -118,8 +128,13 @@ fill="#000000" stroke="none">
 
 <div class="panel">
 <div class="container">
-  <p style="color:orange;" class="watch intro fade-in" >I miei linguaggi</p>
-  <h1 class="watch title-bg fade-in">Javascript <br> PHP <br>CSS <br>HTML</h1>
+  
+  <div class="h-text">
+    <div class="h-animate">
+    <span class="text2 first-text2">I Miei Linguaggi&nbsp;</span>
+      <span class="text2 sec-text2 ">HTML</span>
+    </div>
+  </div>
   <br>
   <br>
   <img src="/linguaggi.webp" alt="" class="watch fade-inImg appleWatch">
@@ -131,7 +146,14 @@ fill="#000000" stroke="none">
 
 <div class="panel2">
 <div class="container">
-  <p style="color: black;"  class="watch intro fade-in" >PHP è un potente e flessibile linguaggio di programmazione progettato per il web. È un componente fondamentale di molte delle applicazioni e dei siti web che utilizzi quotidianamente.</p>
+
+<div class="h-text">
+    <div class="h-animate">
+    <span class="text3 first-text3">PHP &nbsp;</span>
+      <span class="text3 sec-text3">è un potente linguaggio</span>
+    </div>
+  </div>
+
   <br>
   <br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="" class="watch  fade-inImg appleWatch2">
@@ -153,6 +175,18 @@ fill="#000000" stroke="none">
 
 
 
+<!-- pannello 4 -->
+
+
+<div class="panel4">
+<div class="container">
+  <p style="color: black;"  class="watch intro fade-in" >
+Laravel è uno dei framework di sviluppo web più popolari e apprezzati, ampiamente utilizzato dalla comunità di sviluppatori per costruire applicazioni web moderne e robuste. </p>
+  <br>
+  <br>
+  <img src="/laravel.png" alt="" class="watch fade-inImg appleWatch4">
+</div>
+</div>
 
 
 
@@ -165,7 +199,8 @@ fill="#000000" stroke="none">
 
 
 
-<div class="panel3">
+
+<div class="panelRecens">
 <div class="container">
       <!-- AGGIUNGI RECENSIONE -->
       <div class="mb-3">

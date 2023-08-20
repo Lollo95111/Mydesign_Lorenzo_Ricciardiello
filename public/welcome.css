@@ -196,6 +196,142 @@ display: block;
 
 
 
+/* PRIMO TESTO ANIMATO */
+
+
+.h-text{
+  padding-top: 50px;
+  margin-left: 60px;
+}
+
+.h-animate .text{
+    position: relative;
+    color: #00C9F3;
+    font-size: 30px;
+    font-weight: 600;
+}
+.h-animate .text.first-text{
+    color: #000000;
+}
+
+
+
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border-left: 2px solid #00C9F3;
+  animation: lollo 4s steps(12) infinite;
+}
+@keyframes lollo{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
+
+
+
+
+
+
+/* SECONDO TESTO ANIMATO */
+
+
+
+
+.h-text2{
+  padding-top: 50px;
+  margin-left: 60px;
+}
+
+.h-animate .text2{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.h-animate .text2.first-text2 {
+  color: orange;
+}
+
+
+.text2.sec-text2:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border-left: 2px solid orange;
+  animation: linguaggi 4s steps(12) infinite;
+}
+@keyframes linguaggi{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
+
+
+
+
+/* TERZO TESTO ANIMATO */
+
+
+
+
+.h-text3{
+  padding-top: 50px;
+  margin-left: 60px;
+}
+
+.h-animate .text3{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.h-animate .text3.first-text3 {
+  font-size: 2.2rem;
+  color: darkred;
+}
+
+
+.text3.sec-text3:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgb(207, 205, 205);
+  border-left: 2px solid darkred;
+  animation: linguaggi2 4s steps(12) infinite;
+}
+@keyframes linguaggi2{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
+
+
+
+
 
 
 
@@ -206,6 +342,7 @@ display: block;
 
 
 .panel{
+  
   height: auto;
   width: 100%;
   background: #ffffffe0;;
@@ -246,8 +383,8 @@ align-items: center;
 }
 
 .appleWatch2{
-  width: 30vw;
-  right: -20vw;
+  width: 25vw;
+  right: -45vw;
   position: relative;
   display: block;
 }
@@ -289,10 +426,44 @@ align-items: center;
 
 
 
+/* pannello 4 */
+
+.panel4{
+  font-family: monospace;
+height: auto;
+width: 100%;
+background:rgba(207, 205, 205, 0.77);
+position: relative;
+z-index: 2;
+color: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.appleWatch4{
+width: 45vw;
+right: -25vw;
+position: relative;
+display: block;
+
+}
 
 
 
 
 
+.panelRecens{
+  font-family: monospace;
+  height: auto;
+  width: 100%;
+  background:rgba(255, 255, 255, 0.86);
+  position: relative;
+  z-index: 2;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
 
 
